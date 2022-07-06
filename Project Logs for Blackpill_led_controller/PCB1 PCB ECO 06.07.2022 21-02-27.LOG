@@ -1,0 +1,15 @@
+Added Pin To Net: NetName=+3V3 Pin=C6-2
+Added Pin To Net: NetName=+3V3 Pin=C7-2
+Added Pin To Net: NetName=+3V3 Pin=C19-2
+Added Pin To Net: NetName=+3V3 Pin=C21-2
+Added Pin To Net: NetName=+3V3 Pin=C22-2
+Added Pin To Net: NetName=+3V3 Pin=IC1-2
+Added Pin To Net: NetName=+3V3 Pin=P1-1
+Added Pin To Net: NetName=+3V3 Pin=P2-1
+Added Pin To Net: NetName=+3V3 Pin=U1-5
+Added Pin To Net: NetName=+3V3 Pin=U2-5
+Added Pin To Net: NetName=+3V3 Pin=U3-5
+Added Pin To Net: NetName=+3V3 Pin=U4-5
+Added Pin To Net: NetName=+3V3 Pin=U6-10
+Added Pin To Net: NetName=+3V3 Pin=U6-11
+Change Net Name : Old Net Name=+3V3 New Net Name=3V3_B
