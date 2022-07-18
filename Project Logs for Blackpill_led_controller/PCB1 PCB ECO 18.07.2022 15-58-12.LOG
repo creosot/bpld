@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=3V3_A Pin=P2-1
+Removed Pin From Net: NetName=GND Pin=P2-2
+Removed Pin From Net: NetName=PB1_ADC9 Pin=P2-3
+Removed Member From Class: ClassName=Sheet1 Member=P2
+Added Member To Class: ClassName=Sheet1 Member=Component P1 61300411121
