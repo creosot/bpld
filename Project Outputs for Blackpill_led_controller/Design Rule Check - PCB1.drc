@@ -1,0 +1,136 @@
+Protel Design System Design Rule Check
+PCB File : E:\git\altium\bpld\PCB1.PcbDoc
+Date     : 28.07.2022
+Time     : 21:30:06
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: NONET_L02_P123 In net GND On Bottom Layer
+   Polygon named: NONET_L02_P119 In net GND On Bottom Layer
+   Polygon named: NONET_L01_P121 In net GND On Top Layer
+   Polygon named: NONET_L01_P120 In net GND On Top Layer
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) ((ObjectKind = 'Pad') And (Name = 'Free-7')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) ((ObjectKind = 'Pad') And (Name = 'Free-8')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+   Violation between Modified Polygon: Polygon Shelved  (NONET_L01_P120) on Top Layer 
+   Violation between Modified Polygon: Polygon Shelved  (NONET_L01_P121) on Top Layer 
+   Violation between Modified Polygon: Polygon Shelved  (NONET_L02_P119) on Bottom Layer 
+   Violation between Modified Polygon: Polygon Shelved  (NONET_L02_P123) on Bottom Layer 
+Rule Violations :4
+
+Processing Rule : Width Constraint (Min=0.3mm) (Max=10mm) (Preferred=0.35mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.125mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=10mm) (Preferred=0.2mm) (All)
+   Violation between Width Constraint: Between Track (53.1mm,9.8mm)(62.2mm,9.8mm) on Bottom Layer And Via (52.3mm,9.8mm) from Top Layer to Bottom Layer 
+Rule Violations :1
+
+Processing Rule : Width Constraint (Min=0.35mm) (Max=10mm) (Preferred=0.4mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.15mm) (Conductor Width=0.15mm) (Air Gap=0.15mm) (Entries=4) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.15mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.35mm) (Air Gap=0.35mm) (Entries=4) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.3mm) (Air Gap=0.3mm) (Entries=4) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.1mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (IsPAD)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.2mm) (IsPAD)
+Rule Violations :0
+
+Processing Rule : Acute Angle Constraint (Minimum=35.000) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=5.9mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=5.9mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.6mm) (Max=5.9mm) (IsPad)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.25mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.15mm < 0.15mm) Between Via (106.75mm,52.7mm) from Top Layer to Bottom Layer And Via (108mm,52.7mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm] / [Bottom Solder] Mask Sliver [0.15mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.15mm < 0.15mm) Between Via (131.8mm,52.7mm) from Top Layer to Bottom Layer And Via (133.05mm,52.7mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm] / [Bottom Solder] Mask Sliver [0.15mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.15mm < 0.15mm) Between Via (156.75mm,52.7mm) from Top Layer to Bottom Layer And Via (158mm,52.7mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm] / [Bottom Solder] Mask Sliver [0.15mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.15mm < 0.15mm) Between Via (181.8mm,52.7mm) from Top Layer to Bottom Layer And Via (183.05mm,52.7mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm] / [Bottom Solder] Mask Sliver [0.15mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.15mm < 0.15mm) Between Via (31.8mm,52.7mm) from Top Layer to Bottom Layer And Via (33.05mm,52.7mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm] / [Bottom Solder] Mask Sliver [0.15mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.15mm < 0.15mm) Between Via (56.75mm,52.7mm) from Top Layer to Bottom Layer And Via (58mm,52.7mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm] / [Bottom Solder] Mask Sliver [0.15mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.15mm < 0.15mm) Between Via (6.75mm,52.7mm) from Top Layer to Bottom Layer And Via (8mm,52.7mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm] / [Bottom Solder] Mask Sliver [0.15mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.15mm < 0.15mm) Between Via (81.8mm,52.7mm) from Top Layer to Bottom Layer And Via (83.05mm,52.7mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm] / [Bottom Solder] Mask Sliver [0.15mm]
+Rule Violations :8
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (Disabled)(IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.15mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (20.716mm,-3.454mm)(20.716mm,21.692mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (20.716mm,-3.454mm)(24.78mm,-3.454mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (24.78mm,-3.454mm)(24.78mm,-2.438mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (24.78mm,-4.724mm)(24.78mm,19.152mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (24.78mm,-4.724mm)(40.02mm,-4.724mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (40.02mm,-1.168mm)(40.02mm,19.152mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (40.02mm,-3.454mm)(44.084mm,-3.454mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (40.02mm,-4.724mm)(40.02mm,-1.168mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Track (44.084mm,-3.454mm)(44.084mm,21.692mm) on Top Overlay 
+Rule Violations :9
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 22
+Waived Violations : 0
+Time Elapsed        : 00:00:09
